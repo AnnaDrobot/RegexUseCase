@@ -4,15 +4,7 @@ namespace RegexUseCase
 {
     public static class Program
     {
-        public static void Main(string[] args)
-        {
-            var input = @"Ab!1bc";
-            var maxLength = 10U;
-            var result = IsMatch(maxLength, input);
-            Console.WriteLine($"input: {input}");
-            Console.WriteLine($"maxLength: {maxLength}");
-            Console.WriteLine($"result: {result}");
-        }
+        public static void Main(string[] args) { }
 
         public static bool IsMatch(uint maxLength, string input)
         {
